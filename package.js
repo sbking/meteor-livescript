@@ -2,7 +2,7 @@ Package.describe({
 	summary : "Add support for LiveScript, a more functional take on Coffeescript."
 });
 
-var ls = require('livescript');
+var ls = require('LiveScript');
 var fs = require('fs');
 
 Package.register_extension("ls", function(bundle, source_path, serve_path, where) {
