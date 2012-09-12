@@ -20,4 +20,8 @@ Package.register_extension("ls", function(bundle, source_path, serve_path, where
 		data : contents,
 		where : where
 	});
+});
+
+Package.on_test(function(api) {
+	api.add_files(['livescript_tests.ls', 'livescript_tests.js'], ['client', 'server']);
 }); 
