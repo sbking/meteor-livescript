@@ -1,4 +1,4 @@
-Package.describe({summary: "Add support for LiveScript, a more functional take on Coffeescript."});
+Package.describe({summary: "LiveScript, a CoffeeScript descendant with improvements and new features."});
 
 Package._transitional_registerBuildPlugin({
   name: "compileLiveScript",

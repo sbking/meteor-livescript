@@ -1,6 +1,6 @@
 {
 	"name": "livescript",
-	"description": "LiveScript,a more functional take on Coffeescript, repackaged for Meteor",
+	"description": "LiveScript, a CoffeeScript descendant with improvements and new features.",
 	"homepage": "https://github.com/digioak/meteor-livescript",
 	"author": "Oak Chantosa <o.chantosa@gmail.com>",
 	"version": "0.0.4",
